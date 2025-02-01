@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>ELX</title>
+</head>
+
+<body class="bg-[#161728]">
+    <header class="w-full h-screen flex">
+        <div class="m-auto flex flex-col gap-16 justify-center items-center text-white">
+            <img class="w-60 md:w-72 xl:w-96 h-auto" src="./imgs/moi.png">
+            <h1 class="text-4xl md:text-6xl xl:text-8xl font-bold">Louis-Xavier Godet</h1>
+        </div>
+    </header>
+
+
+    <!-- À propos -->
+    <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
+        <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center">  À propos de moi </h2>
+        <div class="bg-white text-[#161728] p-8 xl:p-16 rounded-xl text-base md:text-xl xl:text-3xl text-left flex flex-col gap-6">
+            <p> Bienvenue ! Je suis Louis-Xavier Godet, j'ai 23 ans et je suis passionné par l'informatique. </p>
+            <p> 
+                Récemment diplomé d'un master informatique, je suis à la recherche d'un premier emploi. Je suis spécialisé dans
+                le domaine de la 3D / XR, de l'intelligence artificielle et du web. Curieux et motivé, je suis ouvert à toute opportunité!
+            </p>
+        </div>
+    </section>
+
+    <!-- Formation -->
+    <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
+        <h2 class="text-3xl  md:text-4xl xl:text-5xl font-bold text-white text-center">  Mes diplômes </h2>
+
+        <div class="w-full md:h-[75vh] flex flex-col-reverse md:flex-row gap-5 md:gap-0 text-[#161728]">    
+            <div id="DUT" class="w-full md:h-[65%] bg-white md:bg-gray-400 rounded-xl p-5"> 
+                <p class="text-lg -md:text-xl xl:text-3xl font-bold"> Bac +2 </p>
+                <div class="flex flex-col justify-center pt-8 md:pt-24 gap-2">
+                    <h3 class="text-lg md:text-2xl xl:text-5xl font-bold"> DUT informatique </h3>
+                    <i class="text-base md:text-lg xl:text-2xl"> IUT de Vannes </i>
+                </div>
+            </div>
+            
+            <div id="L3" class="w-full md:h-[70%] md:-ml-[70%] bg-white md:bg-gray-300 rounded-xl p-5"> 
+                <p class="text-lg md:text-xl xl:text-3xl font-bold"> Bac +3 </p>
+                <div class="flex flex-col justify-center pt-8 md:pt-24 gap-2">
+                    <h3 class="text-lg md:text-2xl xl:text-5xl font-bold"> Licence 3 informatique </h3>
+                    <i class="text-base md:text-lg xl:text-2xl"> Université de Poitiers </i>
+                </div>
+            </div>
+            
+            <div id="MI" class="w-full md:h-[75%] md:-ml-[70%] bg-white rounded-xl p-5">
+                <p class="text-lg md:text-xl xl:text-3xl font-bold"> Bac +5 </p>
+                <div class="flex flex-col justify-center pt-8 md:pt-24 gap-2">
+                    <h3 class="text-lg md:text-2xl xl:text-5xl font-bold"> Master informatique mention bien</h3>
+                    <p class="text-base md:text-lg xl:text-2xl" > Parcours "Applications Interactives et Données Numériques" </p>
+                    <i class="text-base md:text-lg xl:text-2xl"> Université de Bretagne Sud </i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences pro -->
+    <section class="pl-[10%] pr-[10%] mt-32 md:mt-8 flex flex-col gap-12">
+        <h2 class="text-3xl  md:text-4xl xl:text-5xl font-bold text-white text-center">  Mes expériences pro </h2>
+        
+        <div class="grid grid-cols-1 grid-rows-2 gap-16">
+            <div class="bg-white row-span-1 flex flex-col md:flex-row rounded-xl p-8 gap-16">
+                <img class="w-72 xl:w-96 h-auto shadow-xl rounded-xl self-center" src="./imgs/hcollab.png">
+                <div class="text-[#161728] flex flex-col gap-6 justify-center">
+                    <div>
+                        <h3 class="text-xl md:text-2xl xl:text-4xl font-bold">Stage recherche en VR</h3>
+                        <p class="text-base md:text-lg xl:text-xl font-bold"> IMT Atlantique - février à juillet 2024 (6 mois) </p>
+                    </div>
+                    <p class="text-lg md:text-xl xl:text-2xl">
+                        Création d'un système permettant à des utilisateurs co-localisés devant un grand écran tactile et
+                        des utilisateurs distants équipés de casques RV de collaborer sur du contenu numérique.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white row-span-1 flex flex-col md:flex-row rounded-xl p-8 gap-16">
+                <img class="w-72 xl:w-96 h-auto shadow-xl rounded-xl self-center" src="./imgs/cadiou.png">
+                <div class="text-[#161728] flex flex-col gap-6 justify-center">
+                    <div>
+                        <h3 class="text-xl md:text-2xl xl:text-4xl font-bold">Stage développeur web </h3>
+                        <p class="text-base md:text-lg xl:text-xl font-bold"> Maison Cadiou - avril à juin 2021 (2 mois) </p>
+                    </div>
+                    <p class="text-lg md:text-xl xl:text-2xl">
+                        Refonte du site web principale de l'entreprise à l'aide de HTML, CSS, Javascript et WordPress.
+                        Stage réalisé dans le cadre de mon DUT informatique. Le site a été publié <a class="underline" href="https://www.cadiou.bzh/">ici</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
+        <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center"> Projets </h2>
+
+        <div class="flex flex-col lg:flex-row gap-16 text-[#161728]">
+            <div class="flex flex-col flex-1 bg-white p-5 gap-5">
+                <img class="h-48 object-cover rounded-xl shadow-xl" src="./imgs/meteoapp.png">
+                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> MeteoApp </h3>
+                <p class="h-[70%]"> Application de prévision météo sur une ville. Informations récupérées avec l'API MétéoConcept. 
+                    Site réalisé en Javascript avec le framework VueJS. 
+                </p>
+                <a class="bg-[#43E168] text-center text-white font-bold p-1" href="https://eliiks.github.io/MeteoApp" target="_blank">En savoir plus</a>
+            </div>
+            <div class="flex flex-col flex-1 bg-white p-5 gap-5">
+                <img class="h-48 object-cover  rounded-xl shadow-xl" src="./imgs/rssnews.png">
+                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> RSS Reader </h3>
+                <p class="h-[70%]"> Programme Python collectant des items RSS indexés puis analysés par une IA entraînée à les classer 
+                    dans une catégorie (sport, culture, politique, etc.).
+                </p>
+                <a class="bg-[#43E168] text-center text-white font-bold p-1" href="https://github.com/eliiks/RSSNews" target="_blank">En savoir plus</a>
+            </div>
+            <div class="flex flex-col flex-1 bg-white p-5 gap-5">
+                <img class="h-48 object-cover rounded-xl shadow-xl" src="./imgs/candycronch.png">
+                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> CandyCronch </h3>
+                <p class="h-[70%]"> Petite application Javascript reprenant le concept du célèbre jeu mobile “Candy Crush Saga”.
+                </p>
+                <a class="bg-[#43E168] text-center text-white font-bold p-1" href="https://eliiks.github.io/CandyCronch" target="_blank">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer class="flex flex-col justify-center mt-32 mb-8 gap-4">
+        <p class="text-lg md:text-xl xl:text-2xl text-center text-white font-bold">louisxavier.godet@gmail.com</p>
+        <div class="flex justify-center items-center gap-8">
+            <a href="https://github.com/eliiks" target="_blank"><img src="./imgs/github.png" class="w-16 h-auto self-center"></a>
+            <a href="https://www.linkedin.com/in/louis-xavier-g-0033a7162" target="_blank"><img src="./imgs/linkedin.png" class="w-16 h-auto self-center"></a>
+        </div>
+    </footer>
+
+    <script src="./js/diplomes-nav.js"></script>
+</body>
+
+</html>
