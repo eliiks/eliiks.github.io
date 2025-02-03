@@ -24,11 +24,11 @@
     <!-- À propos -->
     <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center">  À propos de moi </h2>
-        <div class="bg-white text-[#161728] p-8 xl:p-16 rounded-xl text-base md:text-xl xl:text-3xl text-left flex flex-col gap-6">
+        <div class="flex flex-col gap-6 bg-white rounded-xl p-6 xl:p-12 text-[#161728] text-base md:text-xl xl:text-3xl">
             <p> Bienvenue ! Je suis Louis-Xavier Godet, j'ai 23 ans et je suis passionné par l'informatique. </p>
             <p> 
-                Récemment diplomé d'un master informatique, je suis à la recherche d'un premier emploi. Je suis spécialisé dans
-                le domaine de la 3D / XR, de l'intelligence artificielle et du web. Curieux et motivé, je suis ouvert à toute opportunité!
+                Récemment diplômé d'un master en informatique, je suis à la recherche d'un premier emploi. Je suis spécialisé dans en 3D, 
+                en réalité étendue (XR), en intelligence artificielle et en web. Curieux et motivé, je suis ouvert à toute opportunité!
             </p>
         </div>
     </section>
@@ -57,7 +57,7 @@
             <div id="MI" class="w-full md:h-[75%] md:-ml-[70%] bg-white rounded-xl p-5">
                 <p class="text-lg md:text-xl xl:text-3xl font-bold"> Bac +5 </p>
                 <div class="flex flex-col justify-center pt-8 md:pt-24 gap-2">
-                    <h3 class="text-lg md:text-2xl xl:text-5xl font-bold"> Master informatique mention bien</h3>
+                    <h3 class="text-lg md:text-2xl xl:text-5xl font-bold"> Master informatique mention bien </h3>
                     <p class="text-base md:text-lg xl:text-2xl" > Parcours "Applications Interactives et Données Numériques" </p>
                     <i class="text-base md:text-lg xl:text-2xl"> Université de Bretagne Sud </i>
                 </div>
@@ -67,7 +67,7 @@
 
     <!-- Expériences pro -->
     <section class="pl-[10%] pr-[10%] mt-32 md:mt-8 flex flex-col gap-12">
-        <h2 class="text-3xl  md:text-4xl xl:text-5xl font-bold text-white text-center">  Mes expériences pro </h2>
+        <h2 class="text-3xl  md:text-4xl xl:text-5xl font-bold text-white text-center">  Mes expériences professionnelles </h2>
         
         <div class="grid grid-cols-1 grid-rows-2 gap-16">
             <div class="bg-white row-span-1 flex flex-col md:flex-row rounded-xl p-8 gap-16">
@@ -78,8 +78,8 @@
                         <p class="text-base md:text-lg xl:text-xl font-bold"> IMT Atlantique - février à juillet 2024 (6 mois) </p>
                     </div>
                     <p class="text-lg md:text-xl xl:text-2xl">
-                        Création d'un système permettant à des utilisateurs co-localisés devant un grand écran tactile et
-                        des utilisateurs distants équipés de casques RV de collaborer sur du contenu numérique.
+                        Création d'un système de collaboration entre des utilisateurs co-localisés devant un grand écran tactile et
+                        des utilisateurs distants équipés de casques VR.
                     </p>
                 </div>
             </div>
@@ -92,8 +92,8 @@
                         <p class="text-base md:text-lg xl:text-xl font-bold"> Maison Cadiou - avril à juin 2021 (2 mois) </p>
                     </div>
                     <p class="text-lg md:text-xl xl:text-2xl">
-                        Refonte du site web principale de l'entreprise à l'aide de HTML, CSS, Javascript et WordPress.
-                        Stage réalisé dans le cadre de mon DUT informatique. Le site a été publié <a class="underline" href="https://www.cadiou.bzh/">ici</a>
+                        Refonte du site web principal de l'entreprise à l'aide de HTML, CSS, JavaScript et WordPress.
+                        Stage réalisé dans le cadre de mon DUT informatique. Le site a été publié <a class="underline" href="https://www.cadiou.bzh/">ici</a>.
                     </p>
                 </div>
             </div>
@@ -104,29 +104,49 @@
     <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center"> Projets </h2>
 
-        <div class="grid auto-rows-fr xl:grid-cols-3 gap-16 text-[#161728]">
-            <div class="flex flex-col bg-white p-5 gap-5 rounded-xl">
+        <div class="grid auto-rows-fr lg:grid-cols-2 xl:grid-cols-4 gap-8 text-[#161728]">
+            <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/meteoapp.png">
-                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> MeteoApp </h3>
-                <p class="h-28 sm:h-16 md:h-8 lg:h-16 xl:h-28"> Application de prévision météo sur une ville. Informations récupérées avec l'API MétéoConcept. 
-                    Site réalisé en Javascript avec le framework VueJS. 
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> MeteoApp </h3>
+                    <p class="font-light text-sm"> Projet personnel </p>
+                </div>
+                <p class="h-24 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Application de prévision météo pour une ville. Informations récupérées via l'API MétéoConcept. 
+                    Site réalisé en JavaScript avec le framework Vue.js. 
                 </p>
-                <a class="bg-[#39b957] text-center text-white font-bold p-1" href="https://eliiks.github.io/MeteoApp" target="_blank">En savoir plus</a>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://eliiks.github.io/MeteoApp" target="_blank">En savoir plus</a>
             </div>
-            <div class="flex flex-col bg-white p-5 gap-5 rounded-xl">
+            <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/rssnews.png">
-                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> RSS Reader </h3>
-                <p class="h-28 sm:h-16 md:h-8 lg:h-16 xl:h-28"> Programme Python collectant des items RSS indexés puis analysés par une IA entraînée à les classer 
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> RSSNews </h3>
+                    <p class="font-light text-sm"> Projet de master - En binôme </p>
+                </div>
+                <p class="h-24 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Programme Python collectant des items RSS indexés puis analysés par une IA entraînée à les classer 
                     dans une catégorie (sport, culture, politique, etc.).
                 </p>
-                <a class="bg-[#39b957] text-center text-white font-bold p-1" href="https://github.com/eliiks/RSSNews" target="_blank">En savoir plus</a>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://github.com/eliiks/RSSNews" target="_blank">En savoir plus</a>
             </div>
-            <div class=" flex flex-col bg-white p-5 gap-5 rounded-xl">
+            <div class=" flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/candycronch.png">
-                <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> CandyCronch </h3>
-                <p class="h-28 sm:h-16 md:h-8 lg:h-16 xl:h-28"> Petite application Javascript reprenant le concept du célèbre jeu mobile “Candy Crush Saga”.
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> CandyCronch </h3>
+                    <p class="font-light text-sm"> Projet personnel </p>
+                </div>
+                <p class="h-24 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Petite application JavaScript reprenant le concept du célèbre jeu mobile "Candy Crush Saga".
                 </p>
-                <a class="bg-[#39b957] text-center text-white font-bold p-1" href="https://eliiks.github.io/CandyCronch" target="_blank">En savoir plus</a>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://eliiks.github.io/CandyCronch" target="_blank">En savoir plus</a>
+            </div>
+            <div class=" flex flex-col bg-white p-5 gap-3 rounded-xl">
+                <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/opproadinfo.png">
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> OppRoadInfo </h3>
+                    <p class="font-light text-sm"> Projet de DUT - équipe de 5 </p>
+                </div>
+                <p class="h-24 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Application mobile permettant de suivre l'état du trafic routier autour de soi et 
+                d'envoyer des alertes via un réseau pair-à-pair entre plusieurs Raspberry Pi.
+                </p>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="./pdfs/rapport_projet_opproadinfo.pdf" target="_blank">En savoir plus</a>
             </div>
         </div>
     </section>
