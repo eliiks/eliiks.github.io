@@ -1,6 +1,7 @@
 let dut = document.getElementById("DUT")
 let l3 = document.getElementById("L3")
 let mi = document.getElementById("MI")
+let tips = document.getElementById("tips_diplome_nav")
 
 let array = [dut, l3, mi]
 let selected_index = array.length - 1
@@ -20,6 +21,8 @@ let first_height = "md:h-[75%]"
 array.forEach((element, index)=> {
     if(window.innerWidth >= 768){
         element.addEventListener("click", () => {
+            if(tips.checkVisibility()){ tips.classList.remove("md:block"); }
+
             let items_colors = [darker_gray, lighter_gray, white];
             let items_zindex = [third_zindex, second_zindex, first_zindex];
             let items_heights = [third_height, second_height, first_height];
