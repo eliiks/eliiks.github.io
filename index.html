@@ -106,51 +106,82 @@
     <section class="pl-[10%] pr-[10%] mt-32 flex flex-col gap-12">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center"> Projets </h2>
 
-        <div class="grid auto-rows-fr lg:grid-cols-2 xl:grid-cols-4 gap-8 text-[#161728]">
+        <div id="projets" class="grid lg:grid-cols-2 xl:grid-cols-4 gap-8 text-[#161728]">
+            <div class="flex flex-col bg-white p-5 gap-5 rounded-xl">
+                <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/avatar.jpg">
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> Motion capture et animations d'avatars en VR </h3>
+                    <p class="font-light text-sm"> Projet de master - équipe de 3 </p>
+                </div>
+                <p class="mb-auto pb-4"> 
+                    Réalisation d'une intégration de personnages animés par capture de mouvement dans une scène VR faite à partir d'Unity et en C#. 
+                    <br>Objectif : évaluer la cognition sociale d'un participant en utilisant la VR.
+                </p>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://youtu.be/oZX6yO3ocHI" target="_blank">En savoir plus</a>
+            </div>
+
+            <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
+                <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/supercopter.png">
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> Supercopter </h3>
+                    <p class="font-light text-sm"> Projet de master - équipe de 4 </p>
+                </div>
+                <p class="mb-auto pb-4"> Création d'un jeu en VR sur Unity.
+                    <br> Principe : piloter un hélicoptère (avec manettes ou bracelets Myo) et attraper les plumes d'un oiseau survolant la map
+                     et guidé avec de l'apprentissage par renforcement.
+                </p>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://youtu.be/jXrKjEPY0dY" target="_blank">En savoir plus</a>
+            </div>
+
             <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/meteoapp.png">
                 <div>
                     <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> MeteoApp </h3>
                     <p class="font-light text-sm"> Projet personnel </p>
                 </div>
-                <p class="h-40 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Application de prévision météo pour une ville. Informations récupérées via l'API MétéoConcept. 
+                <p class="mb-auto pb-4"> Application de prévision météo pour une ville. Informations récupérées via l'API MétéoConcept. 
                     Site réalisé en JavaScript avec le framework Vue.js. 
                 </p>
                 <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://eliiks.github.io/MeteoApp" target="_blank">En savoir plus</a>
             </div>
+
             <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/rssnews.png">
                 <div>
                     <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> RSSNews </h3>
                     <p class="font-light text-sm"> Projet de master - en binôme </p>
                 </div>
-                <p class="h-40 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Programme Python collectant des items RSS indexés puis analysés par une IA entraînée à les classer 
+                <p class="mb-auto pb-4"> Programme Python collectant des items RSS indexés puis analysés par une IA entraînée à les classer 
                     dans une catégorie (sport, culture, politique, etc.).
                 </p>
                 <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://github.com/eliiks/RSSNews" target="_blank">En savoir plus</a>
             </div>
-            <div class=" flex flex-col bg-white p-5 gap-3 rounded-xl">
-                <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/candycronch.png">
-                <div>
-                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> CandyCronch </h3>
-                    <p class="font-light text-sm"> Projet personnel </p>
-                </div>
-                <p class="h-40 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Petite application JavaScript reprenant le concept du célèbre jeu mobile "Candy Crush Saga".
-                </p>
-                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://eliiks.github.io/CandyCronch" target="_blank">En savoir plus</a>
-            </div>
+
             <div class=" flex flex-col bg-white p-5 gap-3 rounded-xl">
                 <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/prediction_images_hyperspectrales.png">
                 <div>
                     <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> Prédiction d'images hyperspectrales </h3>
                     <p class="font-light text-sm"> Projet de master - équipe de 3 </p>
                 </div>
-                <p class="h-40 sm:h-20 md:h-16 lg:h-28 xl:h-44"> Réalisation d'une IA assignant 
+                <p class="mb-auto pb-4"> Réalisation d'une IA assignant 
                     chaque pixel d'une image hyperspectrale à une classe (herbes saines, routes, etc.). Programme Python réalisé avec 
                     la librairie Scikit-learn.
                 </p>
                 <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://github.com/eliiks/godet_buche_lambert_challenge_apprentissage_auto" target="_blank">En savoir plus</a>
             </div>
+
+            <div class="flex flex-col bg-white p-5 gap-3 rounded-xl">
+                <img class="w-72 h-auto object-cover self-center rounded-xl shadow-xl" src="./imgs/candycronch.png">
+                <div>
+                    <h3 class="text-lg md:text-xl xl:text-2xl font-bold"> CandyCronch </h3>
+                    <p class="font-light text-sm"> Projet personnel </p>
+                </div>
+                <p class="mb-auto pb-4"> Petite application JavaScript reprenant le concept du célèbre jeu mobile "Candy Crush Saga".
+                </p>
+                <a class="bg-[#39b957] text-center text-white font-bold p-1 mt-auto" href="https://eliiks.github.io/CandyCronch" target="_blank">En savoir plus</a>
+            </div>
+        </div>
+        <button id="view_more_button" class="text-white font-bold bg-[#39b957] m-auto p-4 rounded-full"> Voir plus de projets </button>
     </section>
 
     <!-- Contact -->
@@ -163,6 +194,7 @@
     </footer>
 
     <script src="./js/diplomes-nav.js"></script>
+    <script src="./js/projects_view.js"></script>
 </body>
 
 </html>
