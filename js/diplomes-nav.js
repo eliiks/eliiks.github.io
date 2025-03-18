@@ -14,9 +14,9 @@ let first_zindex = "z-30"
 let second_zindex = "z-20"
 let third_zindex = "z-10"
 
-let third_height = "md:h-[65%]"
-let second_height = "md:h-[70%]"
-let first_height = "md:h-[75%]"
+let third_height = "md:h-[55%]"
+let second_height = "md:h-[60%]"
+let first_height = "md:h-[65%]"
 
 array.forEach((element, index)=> {
     if(window.innerWidth >= 768){
